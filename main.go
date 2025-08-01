@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/terraform-linters/tflint-plugin-sdk/plugin"
 	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
-	"github.com/terraform-linters/tflint-ruleset/rules"
+	"github.com/lundybch/tflint-ruleset/rules"
 )
 
 func main() {
