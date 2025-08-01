@@ -2,7 +2,7 @@ package rules
 
 import (
   "github.com/terraform-linters/tflint-plugin-sdk/tflint"
-  "github.com/terraform-linters/tflint-plugin-sdk/tflint/schema"
+  "github.com/terraform-linters/tflint-plugin-sdk/schema"
 )
 
 type VariableDefaultRule struct{}
