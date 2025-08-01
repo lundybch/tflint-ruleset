@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/terraform-linters/tflint-plugin-sdk/plugin"
 	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
-	"github.com/terraform-linters/tflint-ruleset-template/rules"
+	"github.com/terraform-linters/tflint-ruleset/rules"
 )
 
 func main() {
@@ -16,6 +16,7 @@ func main() {
 				rules.NewAwsS3BucketExampleLifecycleRule(),
 				rules.NewGoogleComputeSSLPolicyRule(),
 				rules.NewTerraformBackendTypeRule(),
+				rules.NewTerraformDefaultVariableRule(),
 			},
 		},
 	})
